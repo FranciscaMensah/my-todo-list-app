@@ -1,0 +1,50 @@
+.table-div{
+  width:90%;
+  margin: 0 auto;
+  padding:10px;
+  background-color: rgb(250, 248, 252);
+  border: 1px solid rgba(213, 202, 228, 0.589);
+  border-radius: 5px;
+}
+
+#todo-table{
+  width:100%;
+  margin:0 auto;
+  border-collapse:collapse;
+}
+
+.table-header{
+  color: inherit;
+  font-size:20px;
+}
+
+/*false is the class name for unchecked rows*/
+.false{
+color:rgb(126, 4, 179);
+font-weight: 500;
+padding:30px;
+}
+.false:hover{
+  background-color:rgba(197, 182, 216, 0.233);  
+}
+/* class name for checked rows*/
+.true{
+  opacity:0.4;
+}
+
+.check-box-input{
+  background-color: black;
+}
+
+.del-btn{
+  color:white;
+  font-size:inherit;
+  background-color:rgb(218, 35, 35);
+  border-radius:5px ;
+  border:none;
+}
+
+.del-btn:hover{
+  color:white;
+  background-color:rgb(175, 27, 27);
+}

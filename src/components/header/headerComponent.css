@@ -1,0 +1,23 @@
+.header-div{
+color:rgb(96, 7, 134);
+padding:0 20px;
+background-color:rgba(217, 146, 247, 0.849);
+border-radius: 5px;
+margin-bottom: 40px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo{
+width:10%;
+height:10%;
+margin:10px 20px;
+border-radius:50%;
+}
+
+#full-logo{
+  display:flex;
+}
+
+#simply{
+  color:rgb(250, 2, 118);
+}
