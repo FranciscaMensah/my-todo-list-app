@@ -1,0 +1,47 @@
+.input-div{
+  display: flex;
+  flex-direction: column;
+  padding-block-end: 10px;
+}
+
+.form-div{
+  width:90%;
+  margin:10px auto;
+  padding: 20px;
+  background-color: rgb(251, 253, 253);
+  box-shadow:0 7px 4px lightgrey;
+  border-radius: 5px;
+}
+
+input[type="text"]{
+  font-family:inherit;
+  font-size:inherit;
+  padding:3px;
+  margin: 7px 0;
+  border-radius: 7px;
+  background-color: rgb(255, 255, 255);
+  border:1px solid #eee;
+}
+
+#time-input{
+  width:50%;
+}
+
+button{
+  padding: 5px 10px;
+  border-radius:5px;
+}
+
+.add-btn{
+  color:white;
+  margin:10px 2px;
+  font-size:inherit;
+  font-weight:500;
+  border:1px solid rgb(127, 90, 192);
+  background-color:rgb(148, 119, 197);
+}
+.add-btn:hover{
+  border:2px solid rgb(114, 82, 170);
+  background-color:rgb(114, 82, 170);
+  transition-delay:0.1s;
+}

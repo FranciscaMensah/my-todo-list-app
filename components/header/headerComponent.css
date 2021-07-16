@@ -1,0 +1,25 @@
+.header-div{
+  color:inherit;
+padding:0 20px;
+background-color:rgba(114, 82, 170, 0.233);
+border-radius: 5px;
+margin-bottom: 40px;
+font-family:inherit;
+}
+
+.logo{
+width:10%;
+height:10%;
+margin:10px 20px;
+border-radius:50%;
+}
+
+#full-logo{
+  display:flex;
+}
+
+.simply{
+  color:green;
+  font-family:cursive;
+  font-weight:200;
+}
